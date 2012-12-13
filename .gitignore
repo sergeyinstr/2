@@ -1,0 +1,715 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<opendreambox>
+  <enigma2>
+		<crashdate>Sat Jan  1 13:50:55 2000</crashdate>
+		<compiledate>Jul  7 2010</compiledate>
+		<contactemail>crashlog@dream-multimedia-tv.de</contactemail>
+		<!-- Please email this crashlog to above address -->
+	</enigma2>
+	<image>
+		<dreamboxmodel>dm800</dreamboxmodel>
+		<kernelcmdline>root=/dev/mtdblock3 rootfstype=jffs2 rw console=null</kernelcmdline>
+		<imageversion>
+		<![CDATA[
+version=1000201007211325
+comment=OpenDreambox
+target=9
+creator=OpenEmbedded <oe@dreamboxupdate.com>
+url=http://www.dreamboxupdate.com/
+catalog=http://www.dreamboxupdate.com/
+		]]>
+		</imageversion>
+		<imageissue>
+		<![CDATA[
+OpenDreambox 1.6.0 %h
+
+		]]>
+		</imageissue>
+	</image>
+	<software>
+		<enigma2software>
+		<![CDATA[
+enigma2 - experimental-git20100706-r1
+enigma2-defaultservices - 1.0-r4
+enigma2-meta - experimental-git20100716-r1
+enigma2-plugin-extensions-cutlisteditor - experimental-git20100706-r1
+enigma2-plugin-extensions-dvdplayer - experimental-git20100706-r1
+enigma2-plugin-extensions-filebrowser - experimental-cvs20100707-r0
+enigma2-plugin-extensions-genuinedreambox - experimental-cvs20100707-r0
+enigma2-plugin-extensions-googlemaps - experimental-cvs20100707-r0
+enigma2-plugin-extensions-graphmultiepg - experimental-git20100706-r1
+enigma2-plugin-extensions-kartinatv - 1.9.0-r0
+enigma2-plugin-extensions-letterbox - experimental-cvs20100707-r0
+enigma2-plugin-extensions-mediadownloader - experimental-cvs20100707-r0
+enigma2-plugin-extensions-mediaplayer - experimental-git20100706-r1
+enigma2-plugin-extensions-mediascanner - experimental-git20100706-r1
+enigma2-plugin-extensions-modem - experimental-git20100706-r1
+enigma2-plugin-extensions-moviecut - experimental-cvs20100707-r0
+enigma2-plugin-extensions-movielistpreview - experimental-cvs20100707-r0
+enigma2-plugin-extensions-movieretitle - experimental-cvs20100707-r0
+enigma2-plugin-extensions-movietagger - experimental-cvs20100707-r0
+enigma2-plugin-extensions-mytube - experimental-cvs20100707-r0
+enigma2-plugin-extensions-pictureplayer - experimental-git20100706-r1
+enigma2-plugin-extensions-quickbutton - experimental-cvs20100707-r0
+enigma2-plugin-extensions-reconstructapsc - experimental-cvs20100707-r0
+enigma2-plugin-extensions-seekbar - experimental-cvs20100707-r0
+enigma2-plugin-extensions-shoutcast - experimental-cvs20100707-r0
+enigma2-plugin-extensions-simplerss - experimental-cvs20100707-r0
+enigma2-plugin-extensions-tageditor - experimental-cvs20100707-r0
+enigma2-plugin-extensions-trafficinfo - experimental-cvs20100707-r0
+enigma2-plugin-extensions-tuxboxplugins - experimental-git20100706-r1
+enigma2-plugin-extensions-tvguide - 2.0-r0
+enigma2-plugin-extensions-vlcplayer - experimental-cvs20100707-r0
+enigma2-plugin-extensions-weatherplugin - experimental-cvs20100707-r0
+enigma2-plugin-extensions-webcamviewer - experimental-cvs20100707-r0
+enigma2-plugin-extensions-webinterface - experimental-cvs20100707-r0
+enigma2-plugin-systemplugins-automatictimerlistcleanup - experimental-cvs20100707-r0
+enigma2-plugin-systemplugins-autoresolution - experimental-cvs20100707-r0
+enigma2-plugin-systemplugins-frontprocessorupgrade - experimental-git20100706-r1
+enigma2-plugin-systemplugins-hotplug - experimental-git20100706-r1
+enigma2-plugin-systemplugins-networkbrowser - experimental-cvs20100707-r0
+enigma2-plugin-systemplugins-networkwizard - experimental-git20100706-r1
+enigma2-plugin-systemplugins-nfibackup - 20090910
+enigma2-plugin-systemplugins-positionersetup - experimental-git20100706-r1
+enigma2-plugin-systemplugins-satfinder - experimental-git20100706-r1
+enigma2-plugin-systemplugins-skinselector - experimental-git20100706-r1
+enigma2-plugin-systemplugins-softwaremanager - experimental-git20100706-r1
+enigma2-plugin-systemplugins-videoenhancement - experimental-git20100706-r1
+enigma2-plugin-systemplugins-videomode - experimental-git20100706-r1
+enigma2-plugin-systemplugins-videotune - experimental-git20100706-r1
+enigma2-plugin-systemplugins-wirelesslan - experimental-git20100706-r1
+enigma2-plugins - experimental-cvs20100707-r0
+enigma2-plugins-meta - experimental-cvs20100719-r0
+enigma2-skins-meta - experimental-cvs20100606-r0
+enigma2-streamproxy - 1.0cvs20080728-r0
+task-opendreambox-enigma2 - 1.0-r5
+		]]>
+		</enigma2software>
+		<dreamboxsoftware>
+		<![CDATA[
+dreambox-blindscan-utils - 1.1-r0
+dreambox-bootlogo - 2.1-r3
+dreambox-compat - 1.0-r0
+dreambox-dvb-modules - 2.6.18-7.3-dm800-20100623-r0
+dreambox-dvb-tools-v3 - 1.7-r0
+dreambox-feed-configs - 1.0-r0
+dreambox-keymaps - 1.0-r1
+dreambox-modem-ppp-scripts - 0.1-r0
+dreambox-secondstage - 76-r1
+dreambox-tpmd - 4-r2
+dreambox-wdog - 1.2-r0
+enigma2-plugin-extensions-genuinedreambox - experimental-cvs20100707-r0
+initscripts-opendreambox - 1.0-r24
+libdreamdvd0 - 0.9+cvs20100330-r1
+task-opendreambox-base - 1.0-r5
+task-opendreambox-dvbapi3 - 1.0-r0
+task-opendreambox-enigma2 - 1.0-r5
+task-opendreambox-modem - 1.0-r0
+task-opendreambox-wlan - 1.0-r3
+		]]>
+		</dreamboxsoftware>
+		<gstreamersoftware>
+		<![CDATA[
+gst-plugin-alsa - 0.10.29-r7.0
+gst-plugin-apetag - 0.10.23-r7.1
+gst-plugin-app - 0.10.29-r7.0
+gst-plugin-audioconvert - 0.10.29-r7.0
+gst-plugin-audioresample - 0.10.29-r7.0
+gst-plugin-autodetect - 0.10.23-r7.1
+gst-plugin-decodebin - 0.10.29-r7.0
+gst-plugin-decodebin2 - 0.10.29-r7.0
+gst-plugin-dvbmediasink - 0.10+cvs20100607-r0
+gst-plugin-flac - 0.10.23-r7.1
+gst-plugin-icydemux - 0.10.23-r7.1
+gst-plugin-id3demux - 0.10.23-r7.1
+gst-plugin-ivorbisdec - 0.10.29-r7.0
+gst-plugin-mad - 0.10.15-r7.0
+gst-plugin-matroska - 0.10.23-r7.1
+gst-plugin-mpegaudioparse - 0.10.15-r7.0
+gst-plugin-mpegdemux - 0.10.19-r7.0
+gst-plugin-mpegstream - 0.10.15-r7.0
+gst-plugin-neonhttpsrc - 0.10.19-r7.0
+gst-plugin-ogg - 0.10.29-r7.0
+gst-plugin-playbin - 0.10.29-r7.0
+gst-plugin-qtdemux - 0.10.23-r7.1
+gst-plugin-rtp - 0.10.23-r7.1
+gst-plugin-rtpmanager - 0.10.23-r7.1
+gst-plugin-rtsp - 0.10.23-r7.1
+gst-plugin-selector - 0.10.19-r7.0
+gst-plugin-souphttpsrc - 0.10.23-r8.0
+gst-plugin-subparse - 0.10.29-r7.0
+gst-plugin-typefindfunctions - 0.10.29-r7.0
+gst-plugin-udp - 0.10.23-r7.1
+gst-plugin-wavparse - 0.10.23-r7.1
+gstreamer - 0.10.29-r0
+libgstapp-0.10-0 - 0.10.29-r7.0
+libgstaudio-0.10-0 - 0.10.29-r7.0
+libgstinterfaces-0.10-0 - 0.10.29-r7.0
+libgstnetbuffer-0.10-0 - 0.10.29-r7.0
+libgstpbutils-0.10-0 - 0.10.29-r7.0
+libgstriff-0.10-0 - 0.10.29-r7.0
+libgstrtp-0.10-0 - 0.10.29-r7.0
+libgstrtsp-0.10-0 - 0.10.29-r7.0
+libgstsdp-0.10-0 - 0.10.29-r7.0
+libgsttag-0.10-0 - 0.10.29-r7.0
+libgstvideo-0.10-0 - 0.10.29-r7.0
+		]]>
+		</gstreamersoftware>
+	</software>
+	<crashlogs>
+		<enigma2crashlog>
+		<![CDATA[
+ converter!
+reused converter!
+reused converter!
+reused converter!
+reused converter!
+reused converter!
+reused converter!
+reused converter!
+reused converter!
+reused converter!
+reused converter!
+reused converter!
+reused converter!
+reused converter!
+reused converter!
+reused converter!
+playing 1:0:1:6978:1B:FFFF:1682FC2:0:0:0:
+not pauseable.
+RemovePopup, id = ZapError
+allocate channel.. 001b:ffff
+opening frontend 0
+[eDVBCAService] new channel 0x8f9d60!
+(0)tune
+RotorCmd ffffffff, lastRotorCmd ffffffff
+prepare_sat System 0 Freq 12226000 Pol 2 SR 27500000 INV 2 FEC 3 orbpos 360 system 0 modulation 1 pilot 2, rolloff 0
+tuning to 1476 mhz
+OURSTATE: tuning
+allocate Channel: res 0
+[eDVBCIInterfaces] addPMTHandler 1:0:1:6978:1B:FFFF:1682FC2:0:0:0:
+allocate demux
+nr_read 119 nr_write 80
+sum 199 prev_sum 0
+hdd was accessed since previous check!
+[IDLE] 0 300 False
+[SEC] set static current limiting
+set sequence pos 3
+set sequence pos 4
+[SEC] setVoltage 2
+[SEC] sleep 200ms
+child has terminated
+pipes closed
+child has terminated
+pipes closed
+[ePopen] command: route -n | grep  eth0
+poll: unhandled POLLERR/HUP/NVAL for fd 27(16)
+child has terminated
+pipes closed
+poll: unhandled POLLERR/HUP/NVAL for fd 30(16)
+poll: unhandled POLLERR/HUP/NVAL for fd 32(16)
+[SEC] invalidate current switch params
+[SEC] sendDiseqc: e00000(DiSEqC reset)
+[SEC] sleep 50ms
+child has terminated
+pipes closed
+192.168
+169.254
+0.0.0.0
+nameservers: [[192, 168, 1, 1]]
+read configured interface: {'lo': {'dhcp': False}, 'eth0': {'dhcp': False, 'netmask': [255, 255, 255, 0], 'gateway': [192, 168, 1, 1], 'address': [192, 168, 1, 100]}}
+self.ifaces after loading: {'eth0': {'preup': False, 'ip': [192, 168, 1, 100], 'up': True, 'mac': '00:09:34:28:38:bb', 'dhcp': False, 'netmask': [255, 255, 255, 0], 'gateway': [192, 168, 1, 1], 'postdown': False}}
+[Toplevel.importExternalModules] Imported external module: BarryAllen
+[Toplevel.importExternalModules] Could NOT import external module: AutoTimer
+[Toplevel.importExternalModules] Exception Caught
+No module named AutoTimer.AutoTimerResource
+[Toplevel.importExternalModules] Could NOT import external module: EPGRefresh
+[Toplevel.importExternalModules] Exception Caught
+No module named EPGRefresh.EPGRefreshResource
+[Toplevel.importExternalModules] Imported external module: Example
+[WebInterface] checking for SSL Certificates
+[Webinterface] started on 192.168.1.100:80 auth= False ssl= False
+[Webinterface] started on 192.168.1.100:443 auth= True ssl= True
+[Webinterface] started on 127.0.0.1:80 auth= False ssl= False
+poll: unhandled POLLERR/HUP/NVAL for fd 29(16)
+[SEC] sendDiseqc: e00003(DiSEqC peripherial power on)
+[SEC] sleep 150ms
+[SEC] sendDiseqc: e01038f3
+[SEC] sleep 50ms
+set sequence pos 3
+[SEC] setTone 1
+[SEC] sleep 10ms
+[SEC] update current switch params
+[SEC] startTuneTimeout 5000
+[SEC] setFrontend 1
+setting frontend 0
+[SEC] sleep 500ms
+(0)fe event: status 0, inversion off, m_tuning 1
+(0)fe event: status 1, inversion off, m_tuning 2
+(0)fe event: status 0, inversion off, m_tuning 3
+(0)fe event: status 2, inversion off, m_tuning 4
+(0)fe event: status 0, inversion off, m_tuning 5
+(0)fe event: status 1, inversion off, m_tuning 6
+(0)fe event: status 0, inversion off, m_tuning 7
+(0)fe event: status 2, inversion off, m_tuning 8
+(0)fe event: status 0, inversion off, m_tuning 9
+[SEC] set dynamic current limiting
+(0)fe event: status 1, inversion off, m_tuning 10
+(0)fe event: status 3, inversion off, m_tuning 11
+(0)fe event: status 1, inversion off, m_tuning 12
+(0)fe event: status 0, inversion off, m_tuning 13
+(0)fe event: status 1, inversion off, m_tuning 14
+(0)fe event: status 0, inversion off, m_tuning 15
+(0)fe event: status 2, inversion off, m_tuning 16
+(0)fe event: status 0, inversion off, m_tuning 17
+(0)fe event: status 1, inversion off, m_tuning 18
+(0)fe event: status 3, inversion off, m_tuning 19
+(0)fe event: status 1, inversion off, m_tuning 20
+(0)fe event: status 0, inversion off, m_tuning 21
+(0)fe event: status 2, inversion off, m_tuning 22
+(0)fe event: status 0, inversion off, m_tuning 23
+(0)fe event: status 1, inversion off, m_tuning 24
+(0)fe event: status 3, inversion off, m_tuning 25
+(0)fe event: status 1, inversion off, m_tuning 26
+(0)fe event: status 3, inversion off, m_tuning 27
+(0)fe event: status 0, inversion off, m_tuning 28
+(0)fe event: status 20, inversion off, m_tuning 29
+FE_TIMEDOUT! ..abort
+OURSTATE: failed
+tune failed.
+DVB service failed to tune - error 1
+RemovePopup, id = ZapError
+AddPopup, id = ZapError
+ignore sdt update data.... incorrect transponder tuned!!!
+(0)fe event: status 7fed9cb8, inversion off, m_tuning 0
+OURSTATE: ok
+[eDVBCAService] channel 0x8f9d60 running
+[eDVBLocalTimerHandler] channel 0x8f9d60 running
+no version filtering
+0014:  70 00 00 00 00 00
+mask:  fc 00 00 00 00 00
+mode:  00 00 00 00 00 00
+[eEPGCache] channel 0x8f9d60 running
+stop release channel timer
+no version filtering
+0012:  4e 69 78 00 00 00
+mask:  ff ff ff 00 00 00
+mode:  00 00 00 00 00 00
+ok ... now we start!!
+no version filtering
+0000:  00 00 00 00 00 00
+mask:  ff 00 00 00 00 00
+mode:  00 00 00 00 00 00
+eventNewProgramInfo 0 0
+have 1 video stream(s) (010f), and 1 audio stream(s) (0110), and the pcr pid is 010f, and the text pid is ffffffff
+allocate demux
+disable teletext subtitles
+decoder state: play, vpid=271, apid=272
+DMX_SET_PES_FILTER(0x10f) - pcr - ok
+DEMUX_START - pcr - ok
+DMX_SET_PES_FILTER(0x110) - audio - ok
+DEMUX_START - audio - ok
+AUDIO_SET_BYPASS(1) - ok
+AUDIO_PAUSE - ok
+AUDIO_PLAY - ok
+Video Device: /dev/dvb/adapter0/video0
+demux device: /dev/dvb/adapter0/demux0
+VIDEO_SET_STREAMTYPE 0 - ok
+DMX_SET_PES_FILTER(0x10f) - video - ok
+DEMUX_START - video - ok
+VIDEO_FREEZE - ok
+VIDEO_PLAY - ok
+VIDEO_SLOWMOTION(0) - ok
+VIDEO_FAST_FORWARD(0) - ok
+VIDEO_CONTINUE - ok
+AUDIO_CONTINUE - ok
+AUDIO_CHANNEL_SELECT(0) - ok
+not pauseable.
+[AutoRes] service changed
+(0)fe event: status 7fed9cb8, inversion off, m_tuning 0
+(0)fe event: status 21, inversion off, m_tuning 0
+stateLostLock
+OURSTATE: lost lock, trying to retune
+(0)tune
+RotorCmd ffffffff, lastRotorCmd ffffffff
+prepare_sat System 0 Freq 12226000 Pol 2 SR 27500000 INV 2 FEC 3 orbpos 360 system 0 modulation 1 pilot 2, rolloff 0
+tuning to 1476 mhz
+OURSTATE: tuning
+(0)fe event: status 20, inversion off, m_tuning 1
+FE_TIMEDOUT! ..abort
+OURSTATE: failed
+tune failed.
+DVB service failed to tune - error 1
+RemovePopup, id = ZapError
+(found in current notifications)
+ignore sdt update data.... incorrect transponder tuned!!!
+VIDEO_GET_EVENT - ok
+[AutoRes] got event evVideoSizeChanged
+[AutoRes] determineContent
+action ->  InfobarMenuActions mainMenu
+loading mainmenu XML...
+TimerEdit TimerEditList
+PluginBrowser PluginBrowser
+reused converter!
+reused converter!
+allocating new converter!
+allocating new converter!
+timeout 0012!
+action ->  OkCancelActions ok
+okbuttonClick
+reused converter!
+reused converter!
+action ->  WizardActions ok
+[KartinaTV] KartinaTV plugin starting
+allocating new converter!
+reused converter!
+allocating new converter!
+reused converter!
+reused converter!
+warning, skin is missing element state in <class 'Plugins.Extensions.KartinaTV.plugin.KartinaStreamPlayer'>
+warning, skin is missing element archiveDate in <class 'Plugins.Extensions.KartinaTV.plugin.KartinaStreamPlayer'>
+[KartinaTV] Using service: 4112
+[KartinaTV] KartinaTV: Authorization started
+[KartinaTV] ERROR login/init failed!
+Login incorrect
+[KartinaTV] start failed. Configure again?
+action ->  MsgBoxActions ok
+[KartinaTV] open config for KartinaTV
+Looking for embedded skin
+action ->  SetupActions 1
+unknown action SetupActions/1! typo in keymap?
+action ->  SetupActions 0
+unknown action SetupActions/0! typo in keymap?
+action ->  SetupActions 2
+unknown action SetupActions/2! typo in keymap?
+nr_read 119 nr_write 80
+sum 199 prev_sum 199
+hdd IDLE!
+[IDLE] 24.1386640072 300 False
+timeout 0000!
+DVB service failed to tune - error 2
+no ancillary data in audio stream... abort radiotext pes parser
+action ->  SetupActions 9
+unknown action SetupActions/9! typo in keymap?
+action ->  SetupActions 8
+unknown action SetupActions/8! typo in keymap?
+action ->  SetupActions 1
+unknown action SetupActions/1! typo in keymap?
+action ->  SetupActions 1
+unknown action SetupActions/1! typo in keymap?
+action ->  SetupActions 0
+unknown action SetupActions/0! typo in keymap?
+action ->  SetupActions 7
+unknown action SetupActions/7! typo in keymap?
+action ->  SetupActions 3
+unknown action SetupActions/3! typo in keymap?
+action ->  SetupActions 0
+unknown action SetupActions/0! typo in keymap?
+timeout 0014!
+[eDVBLocalTimerHandler] no transponder tuned... or no TDT/TOT avail .. try to use RTC :)
+[eDVBLocalTimerHandler] shit RTC not ready :(
+action ->  SetupActions 7
+unknown action SetupActions/7! typo in keymap?
+action ->  SetupActions 0
+unknown action SetupActions/0! typo in keymap?
+action ->  SetupActions 3
+unknown action SetupActions/3! typo in keymap?
+action ->  SetupActions right
+unknown action SetupActions/right! typo in keymap?
+action ->  SetupActions right
+action ->  SetupActions save
+unknown action SetupActions/save! typo in keymap?
+action ->  ColorActions green
+[KartinaTV] config ended for KartinaTV
+[KartinaTV] restarting
+[KartinaTV] Using service: 4112
+[KartinaTV] KartinaTV: Authorization started
+[KartinaTV] KartinaTV: Authorization returned: MWARE_SSID=99s3940s02fsaqe6b0t87lvjg4
+[KartinaTV] KartinaTV: Packet expire: 2012-12-24 17:26:49
+[KartinaTV] KartinaTV: Getting (setting) timezone (old api) GMT 2
+[KartinaTV] KartinaTV: Getting (setting) time shift 0
+[KartinaTV] KartinaTV: Getting time shift new api 0
+[KartinaTV] KartinaTV: Getting channels list
+main thread is non-idle! display spinner!
+[KartinaTV] set time delta to 408658972
+[KartinaTV] Favourites ids []
+[KartinaTV] bouquet In all 0
+[KartinaTV] sorting all 1
+[KartinaTV] bouquet In 29 0
+[KartinaTV] bouquet Out all 0
+[KartinaTV] bouquet Out root 0
+[KartinaTV] bouquet In By group 0
+[KartinaTV] sorting By group 1
+[KartinaTV] bouquet In Ð”ÐµÑ‚ÑÐºÐ¸Ðµ 0
+[KartinaTV] sorting Ð”ÐµÑ‚ÑÐºÐ¸Ðµ 1
+[KartinaTV] bouquet In 579 0
+[KartinaTV] bouquet Out Ð”ÐµÑ‚ÑÐºÐ¸Ðµ 0
+[KartinaTV] bouquet Out By group 0
+[KartinaTV] bouquet In Ð˜Ð½Ñ‚ÐµÑ€Ð½Ð°Ñ†Ð¸Ð¾Ð½Ð°Ð»ÑŒÐ½Ñ‹Ðµ 0
+[KartinaTV] sorting Ð˜Ð½Ñ‚ÐµÑ€Ð½Ð°Ñ†Ð¸Ð¾Ð½Ð°Ð»ÑŒÐ½Ñ‹Ðµ 1
+[KartinaTV] bouquet In 29 0
+[KartinaTV] bouquet Out Ð˜Ð½Ñ‚ÐµÑ€Ð½Ð°Ñ†Ð¸Ð¾Ð½Ð°Ð»ÑŒÐ½Ñ‹Ðµ 0
+[KartinaTV] bouquet Out By group 1
+[KartinaTV] bouquet In ÐšÐ¾Ð¼ÐµÐ´Ð¸Ð¹Ð½Ñ‹Ðµ 0
+[KartinaTV] sorting ÐšÐ¾Ð¼ÐµÐ´Ð¸Ð¹Ð½Ñ‹Ðµ 1
+[KartinaTV] bouquet In 11 0
+[KartinaTV] bouquet Out ÐšÐ¾Ð¼ÐµÐ´Ð¸Ð¹Ð½Ñ‹Ðµ 0
+[KartinaTV] bouquet Out By group 2
+[KartinaTV] bouquet In ÐœÑƒÐ·Ñ‹ÐºÐ°Ð»ÑŒÐ½Ñ‹Ðµ 0
+[KartinaTV] sorting ÐœÑƒÐ·Ñ‹ÐºÐ°Ð»ÑŒÐ½Ñ‹Ðµ 1
+[KartinaTV] bouquet In 647 0
+[KartinaTV] bouquet Out ÐœÑƒÐ·Ñ‹ÐºÐ°Ð»ÑŒÐ½Ñ‹Ðµ 0
+[KartinaTV] bouquet Out By group 3
+[KartinaTV] bouquet In ÐÐ¾Ð²Ð¾ÑÑ‚Ð¸ 0
+[KartinaTV] sorting ÐÐ¾Ð²Ð¾ÑÑ‚Ð¸ 1
+[KartinaTV] bouquet In 339 0
+[KartinaTV] bouquet Out ÐÐ¾Ð²Ð¾ÑÑ‚Ð¸ 0
+[KartinaTV] bouquet Out By group 4
+[KartinaTV] bouquet In ÐžÐ±Ñ‰Ð¸Ðµ 0
+[KartinaTV] sorting ÐžÐ±Ñ‰Ð¸Ðµ 1
+[KartinaTV] bouquet In 61 0
+[KartinaTV] bouquet Out ÐžÐ±Ñ‰Ð¸Ðµ 0
+[KartinaTV] bouquet Out By group 5
+[KartinaTV] bouquet In ÐŸÐ¾Ð·Ð½Ð°Ð²Ð°Ñ‚ÐµÐ»ÑŒÐ½Ñ‹Ðµ 0
+[KartinaTV] sorting ÐŸÐ¾Ð·Ð½Ð°Ð²Ð°Ñ‚ÐµÐ»ÑŒÐ½Ñ‹Ðµ 1
+[KartinaTV] bouquet In 28 0
+[KartinaTV] bouquet Out ÐŸÐ¾Ð·Ð½Ð°Ð²Ð°Ñ‚ÐµÐ»ÑŒÐ½Ñ‹Ðµ 0
+[KartinaTV] bouquet Out By group 6
+[KartinaTV] bouquet In Ð Ð°Ð´Ð¸Ð¾ 0
+[KartinaTV] sorting Ð Ð°Ð´Ð¸Ð¾ 1
+[KartinaTV] bouquet In 399 0
+[KartinaTV] bouquet Out Ð Ð°Ð´Ð¸Ð¾ 0
+[KartinaTV] bouquet Out By group 7
+[KartinaTV] bouquet In Ð Ð°Ð·Ð²Ð»ÐµÐºÐ°Ñ‚ÐµÐ»ÑŒÐ½Ñ‹Ðµ 0
+[KartinaTV] sorting Ð Ð°Ð·Ð²Ð»ÐµÐºÐ°Ñ‚ÐµÐ»ÑŒÐ½Ñ‹Ðµ 1
+[KartinaTV] bouquet In 35 0
+[KartinaTV] bouquet Out Ð Ð°Ð·Ð²Ð»ÐµÐºÐ°Ñ‚ÐµÐ»ÑŒÐ½Ñ‹Ðµ 0
+[KartinaTV] bouquet Out By group 8
+[KartinaTV] bouquet In Ð¡Ð¿Ð¾Ñ€Ñ‚Ð¸Ð²Ð½Ñ‹Ðµ 0
+[KartinaTV] sorting Ð¡Ð¿Ð¾Ñ€Ñ‚Ð¸Ð²Ð½Ñ‹Ðµ 1
+[KartinaTV] bouquet In 27 0
+[KartinaTV] bouquet Out Ð¡Ð¿Ð¾Ñ€Ñ‚Ð¸Ð²Ð½Ñ‹Ðµ 0
+[KartinaTV] bouquet Out By group 9
+[KartinaTV] bouquet In Ð¤Ð¸Ð»ÑŒÐ¼Ñ‹ / Ð¡ÐµÑ€Ð¸Ð°Ð»Ñ‹ 0
+[KartinaTV] sorting Ð¤Ð¸Ð»ÑŒÐ¼Ñ‹ / Ð¡ÐµÑ€Ð¸Ð°Ð»Ñ‹ 1
+[KartinaTV] bouquet In 611 0
+[KartinaTV] bouquet Out Ð¤Ð¸Ð»ÑŒÐ¼Ñ‹ / Ð¡ÐµÑ€Ð¸Ð°Ð»Ñ‹ 0
+[KartinaTV] bouquet Out By group 10
+[KartinaTV] bouquet Out root 1
+[KartinaTV] bouquet In favourites 0
+[KartinaTV] sorting favourites 1
+[KartinaTV] bouquet Out root 2
+[KartinaTV] protect 4112:0:0:0:0:0:0:0:0:155:
+[KartinaTV] protect 4112:0:0:0:0:0:0:0:0:159:
+[KartinaTV] protect 4112:0:0:0:0:0:0:0:0:161:
+[KartinaTV] protect 4112:0:0:0:0:0:0:0:0:257:
+[KartinaTV] set path to [] 0
+[KartinaTV] service not found in path!
+[KartinaTV] now bouquet.current is root
+reused converter!
+reused converter!
+warning, skin is missing element epgNextName in <class 'Plugins.Extensions.KartinaTV.plugin.KartinaChannelSelection'>
+warning, skin is missing element epgNextTime in <class 'Plugins.Extensions.KartinaTV.plugin.KartinaChannelSelection'>
+warning, skin is missing element channelName in <class 'Plugins.Extensions.KartinaTV.plugin.KartinaChannelSelection'>
+warning, skin is missing element epgNextDiscription in <class 'Plugins.Extensions.KartinaTV.plugin.KartinaChannelSelection'>
+[KartinaTV] lastroot not found show All
+[KartinaTV] bouquet In By group 0
+[KartinaTV] KartinaTV: Getting getting epg of cids = [93, 613, 107, 111, 113, 131, 141, 143, 151, 721, 183, 189, 191, 201, 719, 211, 727, 733, 735, 737, 767, 769, 771, 773, 775, 777, 787, 217, 291, 95, 369, 399, 99, 101, 765]
+[KartinaTV] sorting By group 1
+[KartinaTV] 0 By group
+nr_read 119 nr_write 80
+sum 199 prev_sum 199
+hdd IDLE!
+[IDLE] 54.5345890522 300 False
+action ->  DirectionActions down
+unknown action DirectionActions/down! typo in keymap?
+[KartinaTV] 1 By group
+action ->  DirectionActions downUp
+unknown action DirectionActions/downUp! typo in keymap?
+action ->  DirectionActions down
+unknown action DirectionActions/down! typo in keymap?
+[KartinaTV] 2 By group
+action ->  DirectionActions downUp
+unknown action DirectionActions/downUp! typo in keymap?
+action ->  DirectionActions down
+unknown action DirectionActions/down! typo in keymap?
+[KartinaTV] 3 By group
+action ->  DirectionActions downUp
+unknown action DirectionActions/downUp! typo in keymap?
+action ->  DirectionActions down
+unknown action DirectionActions/down! typo in keymap?
+[KartinaTV] 4 By group
+action ->  DirectionActions downUp
+unknown action DirectionActions/downUp! typo in keymap?
+action ->  DirectionActions down
+unknown action DirectionActions/down! typo in keymap?
+[KartinaTV] 5 By group
+action ->  DirectionActions downUp
+unknown action DirectionActions/downUp! typo in keymap?
+action ->  OkCancelActions ok
+[KartinaTV] bouquet In ÐžÐ±Ñ‰Ð¸Ðµ 0
+[KartinaTV] KartinaTV: Getting getting epg of cids = [93, 613, 107, 111, 113, 131, 141, 143, 151, 721, 183, 189, 191, 201, 719, 211, 727, 733, 735, 737, 767, 769, 771, 773, 775, 777, 787, 217, 291, 95, 369, 399, 99, 101, 765]
+[KartinaTV] sorting ÐžÐ±Ñ‰Ð¸Ðµ 1
+[KartinaTV] 0 ÐžÐ±Ñ‰Ð¸Ðµ
+action ->  DirectionActions down
+unknown action DirectionActions/down! typo in keymap?
+[KartinaTV] 1 ÐžÐ±Ñ‰Ð¸Ðµ
+action ->  DirectionActions downUp
+unknown action DirectionActions/downUp! typo in keymap?
+action ->  OkCancelActions ok
+[KartinaTV] bouquet In 371 0
+[KartinaTV] ChannelSelection close
+[KartinaTV] access channel id= 371
+stopService
+decoder state: play, vpid=-1, apid=-1
+DEMUX_STOP - pcr - ok
+DEMUX_STOP - video - ok
+VIDEO_STOP - ok
+AUDIO_STOP - ok
+DEMUX_STOP - audio - ok
+AUDIO_CONTINUE - ok
+start release channel timer
+4112:0:0:0:0:0:0:0:0:371:
+[KartinaTV] play channel id= 371
+[KartinaTV] KartinaTV: Getting URL of stream 371
+playing 4112:0:0:0:0:0:0:0:0:371:http%3a//91.224.187.70%3a18163/?ticket=uktk4BtXei17PQ9v9G8BdXTWiP0LzTDeWA%252BnJVTeGqYgQGVlbq%252FQQbF1YmAixYmmPWNRr7IYv%252FFsjqi0J7KKxFqgNjQ1TcBCKXszy1sMrEJtXmNTPF3blRFTsBK6a7xo06e44Rp57x3NOgw%252B3x%252FD39IO7Miq9FRRnSt9t3bPIMo%253D
+ServiceTS construct!
+allocate demux
+PC: 00000000
+ 00000000 10008400 00000000 016b5fc3
+ 006deaf8 00000001 ffffffff 00547910
+ 7fffffff 00000000 00000000 00000031
+ 7fffffff 2b63fda4 7fed6b60 00000000
+ 016b5f40 7fed6c28 016b5f40 2cfc71f0
+ 0189b1f8 005bab78 00000000 2b7f8878
+ 7fed6b60 00000000 00000001 00000000
+ 2cfe49e0 7fed6be0 01a695a8 2cfc6f5c
+-------
+getResolvedKey config.plugins.crashlogautosubmit.sendAnonCrashlog failed !! (Typo??)
+getResolvedKey config.plugins.crashlogautosubmit.addNetwork failed !! (Typo??)
+getResolvedKey config.plugins.crashlogautosubmit.addWlan failed !! (Typo??)
+		]]>
+		</enigma2crashlog>
+		<pythonMD5sum>
+		<![CDATA[
+f1fedcd2f4d01a0936b4c1207880a6e7  /usr/lib/enigma2/python/enigma.py
+c8cb7ffe121f512968813014bcabf0cd  /usr/lib/enigma2/python/e2reactor.py
+95185fe8de81dbd4b47d0996d7a825da  /usr/lib/enigma2/python/RecordTimer.py
+469416a3e6fb2d584014acf51f7f2ab0  /usr/lib/enigma2/python/skin.py
+c96070e276dd1207f742dbb835016b02  /usr/lib/enigma2/python/Navigation.py
+41d347a6305f5523347e1d4e7b5e9989  /usr/lib/enigma2/python/GlobalActions.py
+4f51bec03632ae3a407f43166c9dfc58  /usr/lib/enigma2/python/ServiceReference.py
+46cf5439c0702ae3d52adf1e0df028af  /usr/lib/enigma2/python/NavigationInstance.py
+0b4897696936a4c0799525c7f1e73166  /usr/lib/enigma2/python/timer.py
+c85fb4aa89ef1da2704cd7a05ace0100  /usr/lib/enigma2/python/SleepTimer.py
+e99c0ea6cdc7d181fe480643f0533fa0  /usr/lib/enigma2/python/Plugins/Plugin.py
+66f553c2a6e6ba4b64f3fe97ff797770  /usr/lib/enigma2/python/Plugins/Extensions/MovieRetitle/__init__.py
+9e2300247e5852dd0d86ccd5bc87a974  /usr/lib/enigma2/python/Plugins/Extensions/MovieRetitle/plugin.py
+d41d8cd98f00b204e9800998ecf8427e  /usr/lib/enigma2/python/Plugins/Extensions/ReconstructApSc/__init__.py
+d42e3dac01946630976599abbc16ec4d  /usr/lib/enigma2/python/Plugins/Extensions/ReconstructApSc/plugin.py
+d41d8cd98f00b204e9800998ecf8427e  /usr/lib/enigma2/python/Plugins/Extensions/MovielistPreview/__init__.py
+6716c008711dc3bebc2e12fcef5daa1f  /usr/lib/enigma2/python/Plugins/Extensions/MovielistPreview/plugin.py
+d41d8cd98f00b204e9800998ecf8427e  /usr/lib/enigma2/python/Plugins/Extensions/TuxboxPlugins/__init__.py
+7f4900ace64b4b667695e3a25781e500  /usr/lib/enigma2/python/Plugins/Extensions/TuxboxPlugins/pluginrunner.py
+b47bac88a9bf662e775ebed184da73b1  /usr/lib/enigma2/python/Plugins/Extensions/TuxboxPlugins/plugin.py
+8d9bcc434023bbba16e95b28c668251e  /usr/lib/enigma2/python/Plugins/Extensions/TagEditor/__init__.py
+a4a3832aeb92e805df16e2ef04588a43  /usr/lib/enigma2/python/Plugins/Extensions/TagEditor/plugin.py
+d41d8cd98f00b204e9800998ecf8427e  /usr/lib/enigma2/python/Plugins/Extensions/__init__.py
+d41d8cd98f00b204e9800998ecf8427e  /usr/lib/enigma2/python/Plugins/Extensions/WebInterface/WebComponents/__init__.py
+91479b6a9e25f99be4798d5bf6fd3914  /usr/lib/enigma2/python/Plugins/Extensions/WebInterface/WebComponents/Converter/HddInfo.py
+c3bae94be7328e3d5c6a811c150bee88  /usr/lib/enigma2/python/Plugins/Extensions/WebInterface/WebComponents/Converter/VolumeInfo.py
+d41d8cd98f00b204e9800998ecf8427e  /usr/lib/enigma2/python/Plugins/Extensions/WebInterface/WebComponents/Converter/__init__.py
+e3ef925e28eded7dcef05c99318f476f  /usr/lib/enigma2/python/Plugins/Extensions/WebInterface/WebComponents/Converter/SimpleResult.py
+da991165af5e3d0d53a40d01b1628f85  /usr/lib/enigma2/python/Plugins/Extensions/WebInterface/WebComponents/Converter/NetworkInterfaceInfo.py
+d436a4138e98d39005d78f0f72932501  /usr/lib/enigma2/python/Plugins/Extensions/WebInterface/WebComponents/Sources/ServiceListRecursive.py
+275867d2408ad16b9ae31a7d4a404076  /usr/lib/enigma2/python/Plugins/Extensions/WebInterface/WebComponents/Sources/AudioTracks.py
+5eb9ae2ca60efb007202c111c8930ec3  /usr/lib/enigma2/python/Plugins/Extensions/WebInterface/WebComponents/Sources/AT.py
+3dedfc02a7693ff0dceffa44e2f9553d  /usr/lib/enigma2/python/Plugins/Extensions/WebInterface/WebComponents/Sources/MP.py
+fe6b0a509f87a3b4075f9a226a0fc376  /usr/lib/enigma2/python/Plugins/Extensions/WebInterface/WebComponents/Sources/About.py
+7d872e251d301f6e840a8b84d79db51a  /usr/lib/enigma2/python/Plugins/Extensions/WebInterface/WebComponents/Sources/RemoteControl.py
+1499a53f194576871251884a3edbca4f  /usr/lib/enigma2/python/Plugins/Extensions/WebInterface/WebComponents/Sources/ReadPluginList.py
+4b47929ce7aa9c84f8d103f09a1951a1  /usr/lib/enigma2/python/Plugins/Extensions/WebInterface/WebComponents/Sources/RequestData.py
+7066953af745c0f21ee0f6750d262a31  /usr/lib/enigma2/python/Plugins/Extensions/WebInterface/WebComponents/Sources/WAPfunctions.py
+71e9fcc6eeb03c4048e9309e8f74cdcc  /usr/lib/enigma2/python/Plugins/Extensions/WebInterface/WebComponents/Sources/ServicePlayable.py
+688712d930947ba359307613daee7d60  /usr/lib/enigma2/python/Plugins/Extensions/WebInterface/WebComponents/Sources/CurrentService.py
+d41d8cd98f00b204e9800998ecf8427e  /usr/lib/enigma2/python/Plugins/Extensions/WebInterface/WebComponents/Sources/__init__.py
+d9a6a9c92f83b09d523fbf4983893db0  /usr/lib/enigma2/python/Plugins/Extensions/WebInterface/WebComponents/Sources/PowerState.py
+cdbb85a69593d2ae79e71b3c3f2bd068  /usr/lib/enigma2/python/Plugins/Extensions/WebInterface/WebComponents/Sources/EPG.py
+38d8dd227714fde94bf51483ea24e63d  /usr/lib/enigma2/python/Plugins/Extensions/WebInterface/WebComponents/Sources/Hdd.py
+c450a6398e9176138302187f8f006e51  /usr/lib/enigma2/python/Plugins/Extensions/WebInterface/WebComponents/Sources/ParentControl.py
+d2917af6478144bb8cf2a2942b05dca9  /usr/lib/enigma2/python/Plugins/Extensions/WebInterface/WebComponents/Sources/SubServices.py
+294001cc31b31eeaf30b4cd2ea5573c0  /usr/lib/enigma2/python/Plugins/Extensions/WebInterface/WebComponents/Sources/Movie.py
+8711a7c84d1f416fe2aa57537240f12f  /usr/lib/enigma2/python/Plugins/Extensions/WebInterface/WebComponents/Sources/Frontend.py
+2e99f33878883c0c70c85f5cae001618  /usr/lib/enigma2/python/Plugins/Extensions/WebInterface/WebComponents/Sources/ServiceListReload.py
+ee095988e4800cb97b22c2bab2ad5068  /usr/lib/enigma2/python/Plugins/Extensions/WebInterface/WebComponents/Sources/Timer.py
+913acf90a36620ef3e50f022f0f157ad  /usr/lib/enigma2/python/Plugins/Extensions/WebInterface/WebComponents/Sources/Settings.py
+207af2bbaa6844ebf5f417c76be70ccd  /usr/lib/enigma2/python/Plugins/Extensions/WebInterface/WebComponents/Sources/Network.py
+e32ce2bc670c4db4654091cc9643bb6c  /usr/lib/enigma2/python/Plugins/Extensions/WebInterface/WebComponents/Sources/Volume.py
+57870159f31ca8c7e0186ce32f67b2cc  /usr/lib/enigma2/python/Plugins/Extensions/WebInterface/WebComponents/Sources/LocationsAndTags.py
+8c7be840b00156f0b13b45cd9a4b2739  /usr/lib/enigma2/python/Plugins/Extensions/WebInterface/WebComponents/Sources/SwitchService.py
+ddc4f6f0ef1a04b668edc60cf1033873  /usr/lib/enigma2/python/Plugins/Extensions/WebInterface/WebComponents/Sources/Message.py
+d05559ffc439af48d1fd42a57db948a6  /usr/lib/enigma2/python/Plugins/Extensions/WebInterface/WebChilds/Toplevel.py
+0a3eb362ab8fb9c10902c741a706fc5f  /usr/lib/enigma2/python/Plugins/Extensions/WebInterface/WebChilds/FileStreamer.py
+d5321b64c8f8e01353326fecef6cb810  /usr/lib/enigma2/python/Plugins/Extensions/WebInterface/WebChilds/ServiceListSave.py
+8d3fa4368e0ddd4961449b4b0f9df747  /usr/lib/enigma2/python/Plugins/Extensions/WebInterface/WebChilds/Screenpage.py
+d41d8cd98f00b204e9800998ecf8427e  /usr/lib/enigma2/python/Plugins/Extensions/WebInterface/WebChilds/__init__.py
+09f98acb513db8a7d1326d281fe3ac2f  /usr/lib/enigma2/python/Plugins/Extensions/WebInterface/WebChilds/PlayService.py
+96adb21a1436587114ae932eaae40e6b  /usr/lib/enigma2/python/Plugins/Extensions/WebInterface/WebChilds/Screengrab.py
+2286a839f700469863379baff1622743  /usr/lib/enigma2/python/Plugins/Extensions/WebInterface/WebChilds/RedirecToCurrentStream.py
+4eb1d29b2b1700e7f5509a54f0e29237  /usr/lib/enigma2/python/Plugins/Extensions/WebInterface/WebChilds/External/BarryAllen.py
+75d6cfcd2d531f46f9b333a8993f1151  /usr/lib/enigma2/python/Plugins/Extensions/WebInterface/WebChilds/External/__init__.py
+a06638596d63924d58d72a8efc161092  /usr/lib/enigma2/python/Plugins/Extensions/WebInterface/WebChilds/External/AutoTimer.py
+3e646a20e5af4e6a2d51d29fa31a4f9c  /usr/lib/enigma2/python/Plugins/Extensions/WebInterface/WebChilds/External/EPGRefresh.py
+b63f4f117c2d2b02904ceab8904a9cb3  /usr/lib/enigma2/python/Plugins/Extensions/WebInterface/WebChilds/External/Example.py
+88fec6376a97cbf19a487daf6f7da30f  /usr/lib/enigma2/python/Plugins/Extensions/WebInterface/WebChilds/IPKG.py
+4bc7690ecc1453e5a016b36e1653a7e3  /usr/lib/enigma2/python/Plugins/Extensions/WebInterface/WebChilds/Uploader.py
+d41d8cd98f00b204e9800998ecf8427e  /usr/lib/enigma2/python/Plugins/Extensions/MovieCut/__init__.py
+5010876a3bacac4fb3bf7dbda8a194e7  /usr/lib/enigma2/python/Plugins/Extensions/MovieCut/plugin.py
+d41d8cd98f00b204e9800998ecf8427e  /usr/lib/enigma2/python/Plugins/Extensions/Tuxtxt/__init__.py
+5076c1a7c2ef8d42a0f9c4b5d6821a19  /usr/lib/enigma2/python/Plugins/Extensions/Tuxtxt/plugin.py
+d41d8cd98f00b204e9800998ecf8427e  /usr/lib/enigma2/python/Plugins/Extensions/MovieTagger/__init__.py
+f12c22069b474d3c2b126505b55876d6  /usr/lib/enigma2/python/Plugins/Extensions/MovieTagger/plugin.py
+d41d8cd98f00b204e9800998ecf8427e  /usr/lib/enigma2/python/Plugins/Extensions/Seekbar/__init__.py
+864c21a2509ba7b45f41ce024ad8046e  /usr/lib/enigma2/python/Plugins/Extensions/Seekbar/plugin.py
+8f28725b88327813915939b297b0804b  /usr/lib/enigma2/python/Plugins/Extensions/KartinaTV/api/rodnoe_api.py
+d41d8cd98f00b204e9800998ecf8427e  /usr/lib/enigma2/python/Plugins/Extensions/KartinaTV/api/__init__.py
+ffbb7c614e0db549302f642d67ca7150  /usr/lib/enigma2/python/Plugins/Extensions/KartinaTV/api/abstract_api.py
+382570fdcbdce735b0e494fb008b413f  /usr/lib/enigma2/python/Plugins/Extensions/KartinaTV/api/m3u_playlist.py
+3c8afa85971482ab1b8af3c933d6c66e  /usr/lib/enigma2/python/Plugins/Extensions/KartinaTV/api/rodnoe_radio.py
+51e76566d94c3192bc5032362799d647  /usr/lib/enigma2/python/Plugins/Extensions/KartinaTV/api/kartina_api.py
+49dea68fbffeea57225f1c51fde7bea2  /usr/lib/enigma2/python/Plugins/Extensions/KartinaTV/api/kartina_videos.py
+9e8aeb7ec19512fc026c17b33972df75  /usr/lib/enigma2/python/Plugins/Extensions/KartinaTV/__init__.py
+f22cfd6c762ca62e38c0f432766192bc  /usr/lib/enigma2/python/Plugins/Extensions/KartinaTV/plugin.py
+2c68aa13e80be313c9a6f8afe76e2969  /usr/lib/enigma2/python/Plugins/Extensions/KartinaTV/utils.py
+d41d8cd98f00b204e9800998ecf8427e  /usr/lib/enigma2/python/Plugins/DemoPlugins/__init__.py
+d41d8cd98f00b204e9800998ecf8427e  /usr/lib/enigma2/python/Plugins/__init__.py
+d41d8cd98f00b204e9800998ecf8427e  /usr/lib/enigma2/python/Plugins/SystemPlugins/Hotplug/__init__.py
+e2f43b05310c560fa5582c80f0bcb491  /usr/lib/enigma2/python/Plugins/SystemPlugins/Hotplug/plugin.py
+4733c43676e98c02c3482f06114c062f  /usr/lib/enigma2/python/Plugins/SystemPlugins/WirelessLan/Wlan.py
+c3ae2a05a3f8ae46e2ce5fbf36c1353c  /usr/lib/enigma2/python/Plugins/SystemPlugins/WirelessLan/flags.py
+d41d8cd98f00b204e9800998ecf8427e  /usr/lib/enigma2/python/Plugins/SystemPlugins/WirelessLan/__init__.py
+6128a2deeabc754f35ce5f8b3b23ac45  /usr/lib/enigma2/python/Plugins/SystemPlugins/WirelessLan/plugin.py
+0d4c08abd19da06bd202ba67be9aef01  /usr/lib/enigma2/python/Plugins/SystemPlugins/WirelessLan/iwlibs.py
+9f565e180deab436b5175874ee919ca6  /usr/lib/enigma2/python/Plugins/SystemPlugins/VideoTune/VideoFinetune.py
+d41d8cd98f00b204e9800998ecf8427e  /usr/lib/enigma2/python/Plugins/SystemPlugins/VideoTune/__init__.py
+bbd101c69eb3df3408dbde2758b4d2e1  /usr/lib/enigma2/python/Plugins/SystemPlugins/VideoTune/plugin.py
+f2b0860285127ea0085adb95a7514652  /usr/lib/enigma2/python/Plugins/SystemPlugins/Videomode/VideoWizard.py
+d41d8cd98f00b204e9800998ecf8427e  /usr/lib/enigma2/python/Plugins/SystemPlugins/Videomode/__init__.py
+e6d195cdc45163ee52d4f68d19e0389f  /usr/lib/enigma2/python/Plugins/SystemPlugins/Videomode/plugin.py
+f2c10d1643bc434336707a584e1eb4f7  /usr/lib/enigma2/python/Plugins/SystemPlugins/Videomode/VideoHardware.py
+d41d8cd98f00b204e9800998ecf8427e  /usr/lib/enigma2/python/Plugins/SystemPlugins/__init__.py
+d41d8cd98f00b204e9800998ecf8427e  /usr/lib/enigma2/python/Plugins/SystemPlugins/FrontprocessorUpgrade/__init__.py
+9f0699266c555f1f3d041c11cc11b54e  /usr/lib/enigma2/python/Plugins/SystemPlugins/FrontprocessorUpgrade/plugin.py
+d41d8cd98f00b204e9800998ecf8427e  /usr/lib/enigma2/python/Plugins/SystemPlugins/Satfinder/__init__.py
+74ec3ac5b98ef860316d8e0e502cba7e  /usr/lib/enigma2/python/Plugins/SystemPlugins/Satfinder/plugin.py
+d41d8cd98f00b204e9800998ecf8427e  /usr/lib/enigma2/python/Plugins/SystemPlugins/PositionerSetup/__init__.py
+7166b37fba3fc4e2e0c6da2ac22f4e08  /usr/lib/enigma2/python/Plugins/SystemPlugins/PositionerSetup/plugin.py
+9ff38d1fbf23999885065144d273019f  /usr/lib/enigma2/python/keyids.py
+943167eb90dc3145e1b9f61dbd098c3b  /usr/lib/enigma2/python/tools.py
+4f4f1db332e8e3e4c7e33b593c68e70e  /usr/lib/enigma2/python/mytest.py
+3ca804f1c54bd4faaa654ebbe1c07795  /usr/lib/enigma2/python/keymapparser.py
+		]]>
+		</pythonMD5sum>
+	</crashlogs>
+
+</opendreambox>
